@@ -6,7 +6,7 @@ public class Ejemplo4_4{
         int SU = 0;
         int NU = sc.nextInt();
         int ED = 0;
-        for(int C = 0; C <= NU ; NU++){
+        for(int C = 0; C < NU ; C++){
             ED = sc.nextInt();
             SU = SU + ED;
         }
