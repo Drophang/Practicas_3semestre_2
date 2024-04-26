@@ -9,10 +9,11 @@ public class Practica_10 {
         }
         System.out.println(cola);
         int E = 5;
-        while (cola.size() > 4){
+        while (cola.size() > 5){
             cola.remove(E*2);
             E = E - 1;
             System.out.println("-");
+            System.out.println(cola.size());
         }
         System.out.println(cola);
     }
