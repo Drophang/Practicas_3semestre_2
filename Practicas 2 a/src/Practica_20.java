@@ -11,17 +11,15 @@ public class Practica_20 {
         int N = sc.nextInt();
         String E;
         int R = 0;
+        int B = 0;
         for (int i = 0; i < N; i++) {
             pila.add(E = sy.nextLine());
         }
-        int Re =0;
-        while (N > Re){
-            pila1.add(pila.pop());
-            System.out.println("-");
-            if (pila.peek() == pila1.peek()){
-                pila.remove(pila1.peek());
+        while (!pila.isEmpty()) {
+            E = pila.pop();
+            if (!pila1.contains(E)) {
+                pila1.push(E);
             }
-            Re++;
         }
         System.out.println(pila1);
     }

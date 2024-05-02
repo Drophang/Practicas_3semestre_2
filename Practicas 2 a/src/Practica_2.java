@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class Practica_2 {
     public static void main(String[] args) {
